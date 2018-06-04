@@ -1,46 +1,80 @@
 body {
-  background-image: url("MAC_2394web-1-945x630.jpg");
-  font-family: sans-serif;
-  color: white;
-  font-size: 24pt;
-  display: flex;
-  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+  background-image: url("psycho-pig-mask-41f842d2.jpg");
+  font-family: rockwell, serif;
+  font-size: 12pt;
 }
 
-section {
+header {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  color: #A52115;
+}
+header h1 {
+  margin: 0;
   padding: 2em;
-}
-
-h1 {
-  font-size: 3.5em;
-  margin-top: 0em;
-  margin-bottom: .5em;
-}
-
-h3 {
-  font-size: 0.8em;
+  font-size: 3em;
   font-weight: lighter;
-  margin-top: 0;
-  margin-bottom: 0;
-  text-indent: 1.5em;
-}
-h2 {
-  margin-top: 0;
-  font-weight: bold;
-}
-h4 {
-  margin-top: 0em;
-  margin-bottom: 0;
 }
 
-a {
-  color: white;
+article {
+  float: left;
+  margin-left: 100px;
+  margin-top: 1em;
+}
+article a {
   text-decoration: none;
-  font-weight: bold;
+  color: black;
+  padding-right: .5em;
+}
+article a:hover {
+  color: #A52115;
+}
+.home {
+  color: #A52115;
 }
 
-p {
-  margin-top: -2em;
-  margin-bottom: 1.5em;
-  font-size: 0.6em;
+aside {
+  background-color: black;
+  width: 400px;
+  float: right;
+  margin-right: 100px;
+}
+aside h2 {
+  text-align: center;
+  color: #A52115;
+  font-weight: lighter;
+}
+aside p {
+  text-align: center;
+  color: grey;
+}
+
+aside h3 {
+  text-align: left;
+  background-color: grey;
+  border-style: solid;
+  border-width: thin;
+  border-color: white;
+  color: yellow;
+  padding: .2em;
+  font-weight: lighter;
+  font-size: 1em;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+aside h4 {
+  text-align: center;
+  color: white;
+  background-color: red;
+  border-style: solid;
+  border-color: yellow;
+  border-width: thin;
+  padding: .2em;
+  font-weight: lighter;
+  margin-left: 1em;
+  margin-right: 1em;
+
 }
